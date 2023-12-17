@@ -40,3 +40,4 @@ void AShooterPlayerController::GameHasEnded(AActor *EndGameFocus, bool bIsWinner
 
 	GetWorldTimerManager().SetTimer(RestartTimer, this, &APlayerController::RestartLevel, RestartDelay);
 }
+
